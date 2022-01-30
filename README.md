@@ -1,5 +1,7 @@
 # Guess_a_number
-Guess a Number game
+
+## Проекты
+* [Проект 0. Игра: Guess a Number] {}
 Роман Быков (SF, DST-100)
 
 Это не единственный мой репозиторий, поэтому я не буду расписывать по номерам проекты на курсе Data Science в SkillFactory. 
