@@ -1,11 +1,11 @@
 # Guess_a_number
 
 ## Проекты
-* [Проект 0. Игра: Guess a Number] {https://github.com/chingachguk1977/Guess_a_number}
+* [Проект 0. Игра: Guess a Number] https://github.com/chingachguk1977/Guess_a_number
 Роман Быков (SF, DST-100)
-* [Проект 1. Игра: Tic-Tac-Toe] {https://github.com/chingachguk1977/my_tic-tac-toe}
+* [Проект 1. Игра: Tic-Tac-Toe] https://github.com/chingachguk1977/my_tic-tac-toe
 Роман Быков (SF, FPW-58)
-* [Проект 2. Игра: Battleship game] {https://github.com/chingachguk1977/Battleship-game}
+* [Проект 2. Игра: Battleship game] https://github.com/chingachguk1977/Battleship-game
 Роман Быков (SF, FPW-58) The project is in development.
 
 The repository contains the Guess a Number game.
