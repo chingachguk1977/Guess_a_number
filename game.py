@@ -1,14 +1,13 @@
-from numpy import random
-from numpy import mean
+import numpy as np
 
 
 def bin_search(range_: list, num2guess: int) -> int:
     """Implements the binary search algorithm on the given sequence. This algorithm
     guarantees the number being guessed will be found in no more than log2 of the 
-    number of elements in the given sequence. Make sure the sequence is sorted.
+    number of elements in the given sequence.
 
     Args:
-        range_ (list): A SORTED list sequence to search the number being guessed.
+        range_ (list): A list in which to search the number being guessed.
         num2guess (int): The number to be guessed.
 
     Returns:
@@ -21,15 +20,14 @@ def bin_search(range_: list, num2guess: int) -> int:
 
     while lower_bound <= upper_bound:
         count += 1
-        mid = (lower_bound + upper_bound) // 2
-        guess = range_[mid]
+        guess = (lower_bound + upper_bound) // 2
         if guess == num2guess:
-            return count
+            break
         elif guess > num2guess:
-            upper_bound = mid - 1
+            upper_bound = guess - 1
         else:
-            lower_bound = mid + 1
-    return None
+            lower_bound = guess + 1
+    return count
 
 def run_game():
     """
@@ -40,17 +38,15 @@ def run_game():
     counters = []
     
     # random-generate the list of numbers
-    random_nums = [i for i in range(random.randint(1, 1000))]
-    
-    # the list must be sorted for bin search to work
-    random_nums.sort()
+    random_nums = list(set(np.random.randint(1, 101, size=1000)))
 
     # iterating thro the random numbers
-    for number in random_nums:
-        counters.append(bin_search(random_nums, number))
+    for _ in range(100):
+        random_number = np.random.randint(1, 101)  # generating a random number to guess
+        counters.append(bin_search(random_nums, random_number))
 
     # calculate the mean for all numbers of tries
-    score = int(mean(counters))
+    score = int(np.mean(counters))
 
     print(f'The average number of tries your algorithm guesses a number is: {score}')
 
