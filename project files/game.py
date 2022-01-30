@@ -41,9 +41,9 @@ def run_game():
     random_nums = list(set(np.random.randint(1, 101, size=1000)))
 
     # iterating thro the random numbers
-    for number in range(100):
-        predict_number = np.random.randint(1, 101) 
-        counters.append(bin_search(random_nums, predict_number))
+    for _ in range(100):
+        random_number = np.random.randint(1, 101)  # generating a random number to guess
+        counters.append(bin_search(random_nums, random_number))
 
     # calculate the mean for all numbers of tries
     score = int(np.mean(counters))
