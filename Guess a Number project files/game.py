@@ -41,7 +41,7 @@ def run_game():
     random_nums = list(set(np.random.randint(1, 101, size=1000)))
 
     # iterating thro the random numbers
-    for _ in range(100):
+    for _ in range(1000):
         random_number = np.random.randint(1, 101)  # generating a random number to guess
         counters.append(bin_search(random_nums, random_number))
 
