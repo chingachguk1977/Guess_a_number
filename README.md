@@ -1,5 +1,5 @@
 ## Проекты
-* [Проект 0. Игра: Guess a Number] https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number
+* [Проект 0. Игра: Guess a Number] https://github.com/chingachguk1977/Guess_a_number
 Роман Быков (SF, DST-100)
 
 The repository contains the Guess a Number game.
