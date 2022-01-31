@@ -37,7 +37,7 @@ Presumably, this number must not exceed log2 of the length of the array of numbe
 [Back to the Contents](https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#contents)
 
 ### The Results
-From what I've found, the binary search algorithm does work best for this type of task and for 1000 iterations, the average number of attempts does not exceed the log2 of 1000, i.e. between 7 and 8.
+From what I've found, the binary search algorithm does work best for this type of task, and for 1000 iterations, the average number of attempts does not exceed the log2 of 1000, i.e. between 7 and 8.
 [Back to the Contents](https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#contents)
 
 
