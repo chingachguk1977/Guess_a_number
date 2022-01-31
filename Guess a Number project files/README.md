@@ -6,11 +6,17 @@
 
 ## Contents
 [1. Description] (https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#description)
+
 [2. The Problem Being Solved] (https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#the-problem-being-solved)
+
 [3. The Data Lay-out] (https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#the-data-lay-out)
+
 [4. The Project Stages] (https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#the-project-stages)
+
 [5. The Results] (https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#the-results)
+
 [6. Summary] (https://github.com/chingachguk1977/Guess_a_number/tree/main/Guess%20a%20Number%20project%20files#summary)
+
 
 ### Description
 The computer generates a sequence of random numbers and tries to guess a number within this sequence. 
