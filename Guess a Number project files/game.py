@@ -16,10 +16,10 @@ def bin_search(range_: list, num2guess: int) -> int:
     
     lower_bound = 0
     upper_bound = len(range_) - 1
-    count = 0
+    counter = 0
 
     while lower_bound <= upper_bound:
-        count += 1
+        counter += 1
         guess = (lower_bound + upper_bound) // 2
         if guess == num2guess:
             break
@@ -27,7 +27,7 @@ def bin_search(range_: list, num2guess: int) -> int:
             upper_bound = guess - 1
         else:
             lower_bound = guess + 1
-    return count
+    return counter
 
 def run_game():
     """
